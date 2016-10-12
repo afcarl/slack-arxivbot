@@ -1,0 +1,21 @@
+{
+  "name": "slack-arxivbot",
+  "version": "1.0.0",
+  "description": "Slack bot which listens for ArXiv paper links and posts a pretty summary as an attachment.",
+  "main": "arxivbot.js",
+  "dependencies": {
+    "botkit": "0.1.1",
+    "request": "2.75.0",
+    "xml2js": "0.4.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbullard/slack-arxivbot.git"
+  },
+  "author": "Joe Bullard",
+  "license": "Apache-2.0"
+}
