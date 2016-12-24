@@ -18,5 +18,6 @@ RUN npm install
 
 COPY arxiv-bot.js /src
 COPY arxiv-api.js /src
+COPY slack-token /src
 
 CMD ["node", "/src/arxiv-bot.js"]
